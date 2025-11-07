@@ -1,11 +1,16 @@
 import { Mail, Phone, ExternalLink } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
+import StickyNav from "@/components/StickyNav";
+import AudioSummary from "@/components/AudioSummary";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <StickyNav />
+      <AudioSummary />
+      
       {/* Hero Section */}
-      <header className="border-b border-border">
+      <header className="border-b border-border pt-24">
         <div className="max-w-5xl mx-auto px-6 py-16 md:py-24">
           <h1 className="mb-8 tracking-tight">RAHUL KUSHWAH</h1>
           <div className="flex flex-col md:flex-row md:items-center gap-4 text-sm text-muted-foreground font-light">
@@ -40,7 +45,7 @@ const Index = () => {
       </section>
 
       {/* Experience */}
-      <section className="border-b border-border">
+      <section id="experience" className="border-b border-border">
         <div className="max-w-5xl mx-auto px-6 py-16 md:py-20">
           <h2 className="mb-12">Experience</h2>
 
@@ -186,7 +191,7 @@ const Index = () => {
       </section>
 
       {/* Skills */}
-      <section>
+      <section id="skills">
         <div className="max-w-5xl mx-auto px-6 py-16 md:py-20">
           <h2 className="mb-12">Key Skills & Tools</h2>
           

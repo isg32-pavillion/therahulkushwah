@@ -27,38 +27,11 @@ const AudioSummary = () => {
 
   return (
     <div className="fixed bottom-8 right-8 z-40">
-      <div className="bg-background border border-border rounded-full shadow-lg p-4 flex items-center gap-3">
-        <Button
-          variant="ghost"
-          size="icon"
-          onClick={togglePlay}
-          className="rounded-full h-10 w-10"
-        >
-          {isPlaying ? (
-            <Pause className="h-4 w-4" />
-          ) : (
-            <Play className="h-4 w-4 ml-0.5" />
-          )}
-        </Button>
-        <span className="text-sm font-light hidden sm:inline">Audio Summary</span>
-        <Button
-          variant="ghost"
-          size="icon"
-          onClick={toggleMute}
-          className="rounded-full h-10 w-10"
-        >
-          {isMuted ? (
-            <VolumeX className="h-4 w-4" />
-          ) : (
-            <Volume2 className="h-4 w-4" />
-          )}
-        </Button>
+      <div className="bg-background border border-border rounded-full shadow-lg p-3 flex items-center gap-2">
+        <span className="text-xs font-light px-2 text-muted-foreground">
+          Audio unavailable - Add your ElevenLabs API key to enable
+        </span>
       </div>
-      <audio
-        ref={audioRef}
-        src="/audio-summary.mp3"
-        onEnded={() => setIsPlaying(false)}
-      />
     </div>
   );
 };

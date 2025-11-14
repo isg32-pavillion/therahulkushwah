@@ -12,7 +12,7 @@ const Index = () => {
       <StickyNav />
       <AudioSummary />
       
-      <div className="max-w-6xl mx-auto px-6 py-12">
+      <div className="max-w-6xl mx-auto px-6 py-12 pt-24">
         <Card className="mb-6 shadow-sm border-border/50">
           <CardContent className="p-8">
             <div className="flex flex-col md:flex-row gap-8 items-start">

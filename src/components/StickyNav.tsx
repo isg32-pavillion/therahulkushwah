@@ -45,12 +45,14 @@ const StickyNav = () => {
             Download Resume
           </Button>
 
-          <Button
-            size="sm"
-            className="bg-foreground text-background hover:bg-foreground/90 text-xs px-4"
-          >
-            Connect
-          </Button>
+          <a href="mailto:rahulkushwahqueries@gmail.com">
+            <Button
+              size="sm"
+              className="bg-foreground text-background hover:bg-foreground/90 text-xs px-4"
+            >
+              Connect
+            </Button>
+          </a>
         </div>
       </div>
     </nav>

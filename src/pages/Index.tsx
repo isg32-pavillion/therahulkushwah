@@ -58,6 +58,8 @@ const Index = () => {
                   <ul className="space-y-1.5 text-sm text-muted-foreground">
                     <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Led Amar Ujala National Olympiad strategy — 2.5L+ registrations and ₹1Cr+ revenue.</li>
                     <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Built automation for registrations and reporting.</li>
+                    <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Managed integrated campaigns across digital, print, and on-ground channels.</li>
+                    <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Developed partnerships with 500+ schools across North India.</li>
                   </ul>
                 </div>
                 <Separator />
@@ -69,6 +71,8 @@ const Index = () => {
                   <p className="text-sm font-medium text-muted-foreground mb-2">NetAmbit</p>
                   <ul className="space-y-1.5 text-sm text-muted-foreground">
                     <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Designed multi-channel lead gen strategies across 50+ cities.</li>
+                    <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Implemented CRM systems and marketing automation workflows.</li>
+                    <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Achieved 40% improvement in lead conversion rates through data-driven optimization.</li>
                   </ul>
                 </div>
                 <Separator />
@@ -80,6 +84,34 @@ const Index = () => {
                   <p className="text-sm font-medium text-muted-foreground mb-2">BYJU'S</p>
                   <ul className="space-y-1.5 text-sm text-muted-foreground">
                     <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Led school-based brand campaigns across North India.</li>
+                    <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Managed a team of 15+ marketing professionals and field coordinators.</li>
+                    <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Executed on-ground activations reaching 200K+ students across 300+ schools.</li>
+                  </ul>
+                </div>
+                <Separator />
+                <div>
+                  <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-2">
+                    <h3 className="font-semibold text-foreground">Marketing Manager</h3>
+                    <span className="text-xs text-muted-foreground">Oct 2020 – Jan 2022</span>
+                  </div>
+                  <p className="text-sm font-medium text-muted-foreground mb-2">Toppr</p>
+                  <ul className="space-y-1.5 text-sm text-muted-foreground">
+                    <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Built and scaled referral programs that drove 30% of new user acquisition.</li>
+                    <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Managed partnerships with educational institutions and influencers.</li>
+                    <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Optimized paid campaigns across Google, Facebook, and Instagram with 3x ROAS.</li>
+                  </ul>
+                </div>
+                <Separator />
+                <div>
+                  <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-2">
+                    <h3 className="font-semibold text-foreground">Senior Executive – Marketing</h3>
+                    <span className="text-xs text-muted-foreground">Jul 2018 – Oct 2020</span>
+                  </div>
+                  <p className="text-sm font-medium text-muted-foreground mb-2">Edwise International</p>
+                  <ul className="space-y-1.5 text-sm text-muted-foreground">
+                    <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Launched digital campaigns that increased qualified leads by 45%.</li>
+                    <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Coordinated with 200+ international universities for education fairs and webinars.</li>
+                    <li className="pl-4 relative before:content-['•'] before:absolute before:left-0">Developed content marketing strategies for SEO and social media growth.</li>
                   </ul>
                 </div>
               </CardContent>
@@ -92,12 +124,70 @@ const Index = () => {
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   <SkillBadge>Campaign Strategy</SkillBadge>
-                  <SkillBadge>Lead Gen</SkillBadge>
+                  <SkillBadge>Lead Generation</SkillBadge>
                   <SkillBadge>Performance Marketing</SkillBadge>
                   <SkillBadge>SEO / SEM</SkillBadge>
+                  <SkillBadge>Marketing Automation</SkillBadge>
+                  <SkillBadge>Social Media Marketing</SkillBadge>
+                  <SkillBadge>Content Marketing</SkillBadge>
+                  <SkillBadge>Brand Building</SkillBadge>
+                  <SkillBadge>Analytics & Reporting</SkillBadge>
+                  <SkillBadge>Team Leadership</SkillBadge>
+                  <SkillBadge>Partnership Management</SkillBadge>
+                  <SkillBadge>Event Marketing</SkillBadge>
                 </div>
               </CardContent>
             </Card>
+            
+            <Card className="shadow-sm border-border/50">
+              <CardHeader><CardTitle className="text-lg">Tools & Platforms</CardTitle></CardHeader>
+              <CardContent>
+                <div className="flex flex-wrap gap-2">
+                  <SkillBadge>Google Ads</SkillBadge>
+                  <SkillBadge>Meta Ads</SkillBadge>
+                  <SkillBadge>HubSpot</SkillBadge>
+                  <SkillBadge>Salesforce</SkillBadge>
+                  <SkillBadge>Google Analytics</SkillBadge>
+                  <SkillBadge>Mailchimp</SkillBadge>
+                  <SkillBadge>Canva</SkillBadge>
+                  <SkillBadge>WordPress</SkillBadge>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card className="shadow-sm border-border/50">
+              <CardHeader><CardTitle className="text-lg">Certifications</CardTitle></CardHeader>
+              <CardContent className="space-y-3">
+                <div>
+                  <h4 className="text-sm font-semibold">Google Ads Certification</h4>
+                  <p className="text-xs text-muted-foreground">Google • 2023</p>
+                </div>
+                <div>
+                  <h4 className="text-sm font-semibold">Digital Marketing Specialist</h4>
+                  <p className="text-xs text-muted-foreground">HubSpot Academy • 2022</p>
+                </div>
+                <div>
+                  <h4 className="text-sm font-semibold">Content Marketing Certification</h4>
+                  <p className="text-xs text-muted-foreground">HubSpot Academy • 2021</p>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="shadow-sm border-border/50">
+              <CardHeader><CardTitle className="text-lg">Languages</CardTitle></CardHeader>
+              <CardContent>
+                <div className="space-y-2 text-sm">
+                  <div className="flex justify-between">
+                    <span className="text-foreground">English</span>
+                    <span className="text-muted-foreground">Fluent</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-foreground">Hindi</span>
+                    <span className="text-muted-foreground">Native</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            
             <Card className="shadow-sm border-border/50">
               <CardHeader><CardTitle className="text-lg">Education</CardTitle></CardHeader>
               <CardContent>

@@ -1,11 +1,9 @@
 import { useState, useEffect } from "react";
-import { Volume2, VolumeX, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { generateResumePDF } from "@/utils/generatePDF";
 
 const StickyNav = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMuted, setIsMuted] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,14 +17,6 @@ const StickyNav = () => {
 
   const handleDownloadPDF = () => {
     generateResumePDF();
-  };
-
-  const toggleMute = () => {
-    setIsMuted(!isMuted);
-    const audio = document.querySelector('audio');
-    if (audio) {
-      audio.muted = !isMuted;
-    }
   };
 
   return (
@@ -54,32 +44,6 @@ const StickyNav = () => {
           >
             Download Resume
           </Button>
-          
-          <Button
-            onClick={toggleMute}
-            variant="ghost"
-            size="sm"
-            className="p-2 hover:bg-secondary"
-          >
-            {isMuted ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
-          </Button>
-
-          <a href="http://rahulkushwah.com" target="_blank" rel="noopener noreferrer">
-            <Button
-              variant="ghost"
-              size="sm"
-              className="text-xs hover:bg-secondary hidden sm:flex"
-            >
-              Visit website
-            </Button>
-            <Button
-              variant="ghost"
-              size="sm"
-              className="p-2 hover:bg-secondary sm:hidden"
-            >
-              <ExternalLink className="h-4 w-4" />
-            </Button>
-          </a>
 
           <Button
             size="sm"

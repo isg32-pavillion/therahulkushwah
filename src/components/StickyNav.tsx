@@ -5,16 +5,12 @@ import { generateResumePDF } from "@/utils/generatePDF";
 
 const StickyNav = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isVisible, setIsVisible] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const heroHeight = 300;
-      
       setIsScrolled(scrollPosition > 50);
-      setIsVisible(scrollPosition > heroHeight);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -36,8 +32,6 @@ const StickyNav = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isVisible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
-      } ${
         isScrolled ? "bg-card/95 backdrop-blur-sm shadow-sm border-b border-border/50" : "bg-card/90"
       }`}
     >
